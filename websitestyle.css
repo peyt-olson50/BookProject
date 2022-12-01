@@ -1,0 +1,281 @@
+html {
+	background-color: d2cee0;
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.chapters {
+	font-family: domlovesmary-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@keyframes background {
+    from {
+        background:655794;
+    }
+    to {
+        background:d2cee0;
+    }
+}
+.body{
+	animation: background 8s forwards;
+}
+
+@keyframes fade-title{
+	0%{ opacity: 0; }
+	15%{ opacity: 0; }
+	100%{ opacity: 1; }
+}
+.fade-one{
+	animation: fade-title 7s;
+}
+
+@keyframes fade-author{
+	0%{ opacity: 0; }
+	25%{ opacity: 0; }
+	100%{ opacity: 1; }
+}
+.fade-two{
+	animation: fade-author 10s;
+}
+
+
+.oval {
+  width: 800px;
+  height: 400px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 5px;
+  border-color: 655794;
+  display: inline-block;
+  text-align: center;  
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.specialnote {
+  color: 364b3e;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.square {
+  width: 520px;
+  height: 620px;
+  background-color: 655794;
+  display: inline-block;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro {
+	font-family: domlovesmary-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80;
+	color: whitesmoke;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.introduction {
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: whitesmoke;
+	font-style: normal;	
+	text-align: justify;
+	margin-left: 35px;
+	margin-right: 45px;
+	font-size: 16px;
+}
+
+.initial {
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: whitesmoke;
+	font-style: normal;
+	font-size: 20px;
+	text-align: right;	
+	margin-right: 45px;
+	margin-top: 95px;
+}
+
+.contents {
+	font-family: domlovesmary-pro, serif;
+	color: 655794;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.toc {
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	margin-top: 0px;
+	color: 364b3e;
+	text-align: center;
+}
+
+.chapter-styling {
+	font-family: domlovesmary-pro, serif;
+	color: 655794;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	margin-top: 200px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-left: 300px;
+	letter-spacing: 15px;
+}
+
+.chapter-styling-two {
+	font-family: domlovesmary-pro, serif;
+	color: 655794;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	margin-top: 200px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-left: 300px;
+	letter-spacing: 15px;
+}
+
+.paragraph-styling{
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: normal;	
+	text-align: justify;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-size: 18px;
+}
+
+.poem-styling{
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: italic;	
+	text-align: center;
+	margin-left: 350px;
+	margin-right: 350px;
+	font-size: 19px;
+	line-height: 35px;
+}
+
+.sub-sections{
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: normal;	
+	text-align: center;
+	font-size: 22px;
+}
+
+.sub-sections-two{
+	font-family: domlovesmary-pro, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: normal;	
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
+.sub-sections-three{
+	font-family: domlovesmary-pro, serif;
+	font-weight: 400;
+	color: 655794;
+	font-style: normal;	
+	text-align: left;
+	font-size: 50px;
+	letter-spacing: 5px;
+	margin-left: 300px;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+
+.initial-two {
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: normal;
+	font-size: 20px;
+	text-align: right;	
+	margin-right: 300px;
+	margin-top: 40px;
+}
+
+
+
+h1 {
+	font-family: domlovesmary-pro, serif;
+	font-weight: 400;
+	color: 364b3e;
+	font-style: normal;	
+	font-size: 110px;
+	text-align: center;
+	line-height: 10px;
+	margin-top: 180px;
+	}
+
+h2 {
+	font-family: mrs-eaves, serif;
+	font-weight: 400;
+	color: 4b6455;
+	font-style: normal;	
+	font-size: 45px;
+	text-align: center;
+	line-height: 10px;
+	}
+
+/*
+	@media (min-width:  400px) {
+		html {
+			font-size: 7px;
+		}
+		
+
+		body {
+			margin: 0;
+		}
+
+
+		h1 {
+			font-size: 8em;
+		}
+
+		section.job h2 {
+			font-size: 3rem;
+		}
+
+	}
+
+/*
+
+
+
+
+
+
+
+
